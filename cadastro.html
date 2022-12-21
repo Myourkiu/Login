@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <script src="https://kit.fontawesome.com/46a640c11d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/signup.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <div id="pages">
+            <a href="index.html">Log In</a>
+            <a href="cadastro.html">Sign Up</a>
+        </div>
+
+        <section id="login">
+            <div id="form">
+                <h1>Sign Up</h1>
+
+                <form action="login.cs" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" name="name" id="iname" placeholder="Your Full Name" autocomplete="name" required>
+                        <label for="iname">Name</label>
+                    </div>
+
+                    <div class="campo">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" name="email" id="iemail" placeholder="Your Email" autocomplete="email" required>
+                        <label for="iemail">Email</label>
+                    </div>
+
+                    <div class="campo">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="ipassword" placeholder="Your Password" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="ipassword">Password</label>
+                    </div>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

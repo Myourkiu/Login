@@ -51,7 +51,7 @@ section#login{
 
     background-color: #3d4446;
     width: 350px;
-    height: 350px;
+    height: 370px;
     border-radius: 15px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.384);
 
@@ -117,17 +117,4 @@ form > input[type=submit]{
 
 form > input[type=submit]:hover{
     background-color: #ccbd82;
-}
-
-form > a.forgot{
-    display: block;
-    color: #a1a6ae;
-    font-size: 0.9em;
-    text-align: center;
-    margin-top: 20px;
-    text-decoration: none;
-}
-
-form > a.forgot:hover{
-    color: #80848b;
 }
