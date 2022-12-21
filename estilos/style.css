@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* Configuração geral */
+
+:root{
+    --cor0: #a1a6ae;
+    --cor1: #3d4446;
+    --cor2: #262e31;
+    --cor3: #fceaa2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    background-color: var(--cor2);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+div#pages{
+    text-align: center;
+    padding: 10px;
+}
+
+div#pages > a{
+    color: var(--cor0);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+div#pages > a:nth-child(2){
+    padding-left: 25px;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-color: #3d4446;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.384);
+
+    transform: translate(-50%,-50%);
+}
+
+section#login > div#form{
+    display: block;
+    padding: 20px;
+}
+
+section#login > div#form > h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--cor0);
+    font-weight: bolder;
+}
+
+form > div.campo{
+    display: block;
+    width: 94%;
+    height: 38px;
+    margin: 20px 0px;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+form > div.campo > label{
+    display: none;
+}
+
+div.campo > i{
+    color: var(--cor3);
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: var(--cor2);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border:none;
+    border-radius: 5;
+    padding: 1px;
+
+}
+
+
+form > input[type=submit]{
+    display: block;
+    margin: auto;
+    font-size: 1.1em;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor3);
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #ccbd82;
+}
+
+form > a.forgot{
+    display: block;
+    color: #a1a6ae;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+form > a.forgot:hover{
+    color: #80848b;
+}
