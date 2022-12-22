@@ -31,12 +31,13 @@ main{
 div#pages{
     text-align: center;
     padding: 10px;
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 
 div#pages > a{
     color: var(--cor0);
     text-decoration: none;
-    font-size: 1.5em;
 }
 
 div#pages > a:nth-child(2){
@@ -56,6 +57,8 @@ section#login{
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.384);
 
     transform: translate(-50%,-50%);
+    transition: width .4s, height .4s;
+    transition-timing-function: ease-out;
 }
 
 section#login > div#form{
@@ -121,10 +124,12 @@ form > input[type=submit]:hover{
 
 form > a.forgot{
     display: block;
+    padding: 0;
+    width: 200px;
     color: #a1a6ae;
     font-size: 0.9em;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 18%;
     text-decoration: none;
 }
 
