@@ -40,6 +40,10 @@ div#pages > a{
     text-decoration: none;
 }
 
+div#pages > a:hover{
+    text-decoration: underline;
+}
+
 div#pages > a:nth-child(2){
     margin-left: 25px;
 }

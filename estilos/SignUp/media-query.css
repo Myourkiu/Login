@@ -49,10 +49,6 @@
         font-size: 1.6em;
 
     }
-
-    div#pages > a:hover{
-        text-decoration: underline;
-    }
     
     section#login{
         width: 600px;

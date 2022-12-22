@@ -40,6 +40,10 @@ div#pages > a{
     font-weight: bolder;
 }
 
+div#pages > a:hover{
+    text-decoration: underline;
+}
+
 div#pages > a:nth-child(2){
     margin-left: 25px;
 }
@@ -102,9 +106,7 @@ div.campo > input{
     border:none;
     border-radius: 5;
     padding: 1px;
-
 }
-
 
 form > input[type=submit]{
     display: block;
